@@ -13,7 +13,8 @@ struct TransitionsApp: App {
         WindowGroup {
             //ContentView()
             //PageTransition()
-            MatchedTransition()
+            //MatchedTransition()
+            MatchedView()
         }
     }
 }

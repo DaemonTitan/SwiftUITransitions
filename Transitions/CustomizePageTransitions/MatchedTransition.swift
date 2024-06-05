@@ -36,9 +36,7 @@ struct MatchedTransition: View {
                             .blur(radius: 30)
                             .matchedGeometryEffect(id: "blur", in: namespace)
                     )
-
                 }
-                
                 .foregroundStyle(.white)
                 .background(
                     Image("image1")
@@ -63,9 +61,7 @@ struct MatchedTransition: View {
                         Spacer()
                     }
                     .frame(maxWidth: .infinity)
-                    
                     .frame(height: 500)
-                    
                     .foregroundStyle(.black)
                     .background(
                         Image("image1")
@@ -108,7 +104,6 @@ struct MatchedTransition: View {
                                     )
                                 Text("Lorem ipsum dolor sit")
                                     .font(.footnote)
-                                    
                             }
                         }
                             .padding(20)
